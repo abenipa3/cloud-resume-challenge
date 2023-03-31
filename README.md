@@ -1,2 +1,5 @@
-# cloud-resume-challenge
-4 week sprint for Cloud Resume Challenge
+# Cloud Resume Challenge
+
+Status: In Progress
+References:
+- https://cloudresumechallenge.dev/sprint/
