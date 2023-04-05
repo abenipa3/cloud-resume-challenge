@@ -12,8 +12,9 @@ h1 {
     grid-gap: 30px;
 }
 
-.experience-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
+.experience {
+    position: relative;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
 }
