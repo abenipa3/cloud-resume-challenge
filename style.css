@@ -1,10 +1,28 @@
-body {
-    background-color: aliceblue;
-}
-
 h1 {
     text-transform: uppercase;
 }
+
+.resume-container {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: #f5f5f5;
+    border: 2px solid #ccc;
+    padding: 20px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* Three rows */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 10px; /* Gap between grid items */
+}
+
+.skills-item {
+    /* background-color: #f5f5f5;
+    border: 1px solid #ccc; */
+    padding: 10px;
+    list-style-type: none;  
+  }
 
 .header {
     display: grid;
@@ -12,9 +30,9 @@ h1 {
     grid-gap: 30px;
 }
 
-.container {
+/* .container {
     position: relative;
     margin-bottom: 1em;
     padding-bottom: 1em;
     border-bottom: 1px solid #ccc;
-}
+} */
