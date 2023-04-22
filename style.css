@@ -1,5 +1,81 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header .right {
+    justify-self: end;
+    margin-right: 50px;
+}
+
 h1 {
     text-transform: uppercase;
+}
+
+.left h2 {
+    font-weight: normal;
+
+}
+
+.left h1,
+.left h2,
+.right h3 {
+    margin: 0;
+}
+
+.right h3 {
+    line-height: 1.5em;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+.container h2 {
+    margin-bottom: 0.5em;
+}
+
+.experience-container, .project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 10px;
+    padding-bottom: 1em;
+}
+
+.experience-left, .project-left {
+    grid-column: 1 / 2;
+}
+
+.experience-right, .project-right {
+    grid-column: 2 / 3;
+    justify-self: end;
+}
+
+.experience-details, .project-details {
+    grid-column: span 2;
+}
+
+.experience-container h4,
+.experience p,
+.experience-left h3,
+.experience-right h3,
+.experience-left h4,
+.experience-right h4,
+.project-container h4,
+.project-left h3,
+.project-right h4,
+.project-details ul {
+    margin: 0;
 }
 
 .resume-container {
@@ -10,29 +86,33 @@ h1 {
     padding: 20px;
 }
 
-.skills-grid {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr); /* Three rows */
-    grid-template-columns: repeat(2, 1fr); /* Two columns */
-    gap: 10px; /* Gap between grid items */
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: none;
+    border-bottom: none;
 }
 
-.skills-item {
-    /* background-color: #f5f5f5;
-    border: 1px solid #ccc; */
-    padding: 10px;
-    list-style-type: none;  
-  }
-
-.header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
-}
-
-/* .container {
-    position: relative;
-    margin-bottom: 1em;
-    padding-bottom: 1em;
+.skill-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
     border-bottom: 1px solid #ccc;
-} */
+    align-items: center;
+}
+
+.skill-row:first-child {
+    border-top: none;
+}
+
+.skill-row:last-child {
+    border-bottom: none;
+}
+
+.skill-item {
+    width: 45%;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
