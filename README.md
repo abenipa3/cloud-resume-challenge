@@ -12,7 +12,7 @@ My initial approach to the challenge was a (four week sprint)[https://cloudresum
 - [ ] Week 1: Front-End
   - [X] HTML
   - [X] CSS
-  - [ ] Deploy to S3 and DNS/CloudFront.
+  - [ ] Deploy
 - [ ] Week 2: Back-End API
   - [ ] JavaScript
 - [ ] Week 3: Front-End / Back-End Integration
