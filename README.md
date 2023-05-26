@@ -7,7 +7,7 @@ Status: In Progress
 </p>
 
 # Cloud Resume Challenge: Project Time Commitment
-My initial approach to the challenge was a (four week sprint)[https://cloudresumechallenge.dev/sprint/]. 
+My initial approach to the challenge was a [four week sprint](https://cloudresumechallenge.dev/sprint).
 
 # References
 - https://cloudresumechallenge.dev/sprint/
