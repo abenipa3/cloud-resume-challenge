@@ -2,12 +2,12 @@
 
 Status: In Progress
 
- <p align="center">
+<p align="center">
   <img src="https://media.tenor.com/e0ziOuLDsOUAAAAC/fox-jump.gif">
-  </p>
+</p>
 
 # Cloud Resume Challenge: Project Time Commitment
-My initial approach to the challenge was a (four week sprint)[https://cloudresumechallenge.dev/sprint/]. After reading the guidebook, I find this method a little more workable for me. 
+My initial approach to the challenge was a (four week sprint)[https://cloudresumechallenge.dev/sprint/]. 
 
 # References
 - https://cloudresumechallenge.dev/sprint/
